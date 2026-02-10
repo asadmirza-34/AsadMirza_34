@@ -1,16 +1,71 @@
-<script src="https://cdn.tailwindcss.com"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animated Text</title>
 
-<div class="min-h-screen flex flex-col items-center justify-center bg-black text-white text-center">
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #000;
+      color: #fff;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    }
 
-  <h1 class="text-4xl md:text-5xl font-bold mb-3 animate-bounce">
-    Hi 👋, I'm <span class="text-cyan-400">Asad Mirza</span>
-  </h1>
+    .container {
+      text-align: center;
+    }
 
-  <h3 class="text-xl md:text-2xl font-medium text-cyan-400 animate-pulse">
-    A Front-End Developer & WordPress Developer
-  </h3>
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
 
-</div>
+    h1 span {
+      color: #22d3ee;
+    }
+
+    .typing {
+      font-size: 1.6rem;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 3px solid #22d3ee;
+      width: 0;
+      animation: typing 4s steps(40, end) infinite alternate,
+                 blink 0.8s step-end infinite;
+    }
+
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+
+    @keyframes blink {
+      50% { border-color: transparent }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Hi 👋, I'm <span>Asad Mirza</span></h1>
+
+    <h3 class="typing">
+      A Front-End Developer & WordPress Developer
+    </h3>
+  </div>
+
+</body>
+</html>
+
+
+
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=asadmirza-34&label=Profile%20views&color=0e75b6&style=flat" alt="asadmirza-34" /> </p>
 
