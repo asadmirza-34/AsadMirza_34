@@ -8,7 +8,7 @@
 
 - 🌱 I’m currently learning **Mobile Application Developer**
 
-- 🤝 I’m looking for job or a projects in **Full Stack Website**
+- 🤝 I’m looking for job or a projects in **Front-End Website**
 
 - 💬 Ask me about **Skills I have like Front-End Webs**
 
