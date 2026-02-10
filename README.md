@@ -1,15 +1,26 @@
-<h1 align="center">Hi 👋, I'm Asad Mirza</h1>
-<h3 align="center">A Full Stack Developer and WordPress Developer</h3>
+<script src="https://cdn.tailwindcss.com"></script>
+
+<div class="min-h-screen flex flex-col items-center justify-center bg-black text-white text-center">
+
+  <h1 class="text-4xl md:text-5xl font-bold mb-3 animate-bounce">
+    Hi 👋, I'm <span class="text-cyan-400">Asad Mirza</span>
+  </h1>
+
+  <h3 class="text-xl md:text-2xl font-medium text-cyan-400 animate-pulse">
+    A Front-End Developer & WordPress Developer
+  </h3>
+
+</div>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=asadmirza-34&label=Profile%20views&color=0e75b6&style=flat" alt="asadmirza-34" /> </p>
 
-- 🔭 I’m currently **Full Stack**
+- 🔭 I’m currently **Front-End**
 
 - 🌱 I’m currently learning **Mobile Application Developer**
 
 - 🤝 I’m looking for job or a projects in **Full Stack Website**
 
-- 💬 Ask me about **Skills I have like Full Stack Webs**
+- 💬 Ask me about **Skills I have like Front-End Webs**
 
 - 📫 How to reach me **03190647340**
 
